@@ -22,42 +22,6 @@ public class PlayerController : MonoBehaviour
         body2D.gravityScale = 0f;
         body2D.freezeRotation = true;
     }
-
-    private void Update()
-    {
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            velocity = Vector2.right * speed;
-            animator.SetBool("Speed", true);
-            spriteRenderer.flipX = true;
-        }
-
-        else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            spriteRenderer.flipX = false;
-            velocity = Vector2.left * speed;
-        }
-
-        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-
-        {
-            velocity = Vector2.right * speed;
-            animator.SetBool("Speed", true);
-            spriteRenderer.flipX = true;
-        }
-
-        else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            spriteRenderer.flipX = false;
-            velocity = Vector2.left * speed;
-        }
-
-        else
-        {
-            velocity = Vector2.zero;
-        }
-    }
-
     void FixedUpdate()
     {
         // Applique la vitesse de déplacement (réduite quand le bouclier est levé)
