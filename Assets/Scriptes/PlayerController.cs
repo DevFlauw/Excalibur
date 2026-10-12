@@ -1,21 +1,4 @@
 using UnityEngine;
-
-public class PlayerController : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
-/*
-using UnityEngine;
 using UnityEngine.InputSystem;
 
 // Déplacement du joueur en vue du dessus (ZQSD)
@@ -38,6 +21,41 @@ public class PlayerController : MonoBehaviour
         // Vue du dessus : pas de gravité et pas de rotation
         body2D.gravityScale = 0f;
         body2D.freezeRotation = true;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        {
+            velocity = Vector2.right * speed;
+            animator.SetBool("Speed", true);
+            spriteRenderer.flipX = true;
+        }
+
+        else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        {
+            spriteRenderer.flipX = false;
+            velocity = Vector2.left * speed;
+        }
+
+        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+
+        {
+            velocity = Vector2.right * speed;
+            animator.SetBool("Speed", true);
+            spriteRenderer.flipX = true;
+        }
+
+        else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        {
+            spriteRenderer.flipX = false;
+            velocity = Vector2.left * speed;
+        }
+
+        else
+        {
+            velocity = Vector2.zero;
+        }
     }
 
     void FixedUpdate()
@@ -73,4 +91,3 @@ public class PlayerController : MonoBehaviour
     }
 }
 
-*/
