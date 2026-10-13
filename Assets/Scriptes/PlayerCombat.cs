@@ -1,20 +1,4 @@
-using UnityEngine;
 
-public class PlayerCombat : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
-/*
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -66,6 +50,7 @@ public class PlayerCombat : MonoBehaviour
     {
         // Ignore si le bouton n'est pas pressé, si le cooldown est actif ou si le jeu est en pause
         if (!ctx.performed || sword_timer > 0 || Time.timeScale == 0f) return;
+        Debug.Log("Attack");
 
         sword_timer = sword_cooldown;
         OnSwordSwing?.Invoke();
@@ -169,4 +154,3 @@ public class PlayerCombat : MonoBehaviour
     }
 }
 
-*/
