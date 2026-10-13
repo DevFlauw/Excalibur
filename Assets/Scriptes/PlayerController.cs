@@ -12,6 +12,13 @@ public class PlayerController : MonoBehaviour
     private float speed_multiplier = 1f;
 
     public Vector2 FacingDir { get { return facing_dir; } }
+    private Animator animator;
+
+    void Start()
+    {
+        body2D = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+    }
 
     void Awake()
     {
@@ -37,8 +44,19 @@ public class PlayerController : MonoBehaviour
     // Input de direction (ZQSD)
     public void Move(InputAction.CallbackContext ctx)
     {
+        animator.SetBool("IsWalking", true);
+        
+        if (ctx.canceled)
+        {
+            animator.SetBool("IsWalking", false);
+            animator.SetFloat("LastInputX", move_input.x);
+            animator.SetFloat("LastInputY", move_input.y);
+        }
         // Limite la magnitude à 1 pour que les diagonales ne soient pas plus rapides
         move_input = Vector2.ClampMagnitude(ctx.ReadValue<Vector2>(), 1f);
+        animator.SetFloat("InputX", move_input.x);
+        animator.SetFloat("InputY", move_input.y);
+
 
         if (move_input.sqrMagnitude > 0.01f)
         {
