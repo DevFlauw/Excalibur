@@ -1345,11 +1345,7 @@ PrefabInstance:
     - target: {fileID: 3713346696002115773, guid: e2880e59481887c4c9661446c641955e, type: 3}
       propertyPath: m_Sprite
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: -2930116853071545586, guid: cb76ea6b154a78f46a1b13b1af73ccc2, type: 3}
-=======
       objectReference: {fileID: -5137928054425658030, guid: cb76ea6b154a78f46a1b13b1af73ccc2, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 4199189586019822198, guid: e2880e59481887c4c9661446c641955e, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1394,23 +1390,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< Updated upstream
-    - target: {fileID: 7371417975487664855, guid: e2880e59481887c4c9661446c641955e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.69
-      objectReference: {fileID: 0}
-    - target: {fileID: 7371417975487664855, guid: e2880e59481887c4c9661446c641955e, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.69
-      objectReference: {fileID: 0}
-    - target: {fileID: 7371417975487664855, guid: e2880e59481887c4c9661446c641955e, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.69
-      objectReference: {fileID: 0}
-    - target: {fileID: 7371417975487664855, guid: e2880e59481887c4c9661446c641955e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.01
-=======
     - target: {fileID: 8382950401208687924, guid: e2880e59481887c4c9661446c641955e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.3632
@@ -1418,7 +1397,6 @@ PrefabInstance:
     - target: {fileID: 8382950401208687924, guid: e2880e59481887c4c9661446c641955e, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.1247
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
