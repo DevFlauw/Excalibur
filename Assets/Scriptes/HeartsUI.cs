@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 // Affiche les cœurs de vie du joueur : un GameObject par cœur
@@ -15,4 +16,5 @@ public class HeartsUI : MonoBehaviour
         }
     }
 }
+
 
