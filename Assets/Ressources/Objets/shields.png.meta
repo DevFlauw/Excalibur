@@ -1,0 +1,1989 @@
+fileFormatVersion: 2
+guid: 9604f4f049ed7ed4b8696cb4731c80c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 328039532180823927
+    second: shields_0
+  - first:
+      213: -5736757271575316636
+    second: shields_1
+  - first:
+      213: -6433363496192085588
+    second: shields_2
+  - first:
+      213: 7710633978311161596
+    second: shields_3
+  - first:
+      213: 904626188810745829
+    second: shields_4
+  - first:
+      213: -4721143871157800474
+    second: shields_5
+  - first:
+      213: 5142721028185790954
+    second: shields_6
+  - first:
+      213: -5727892510151796609
+    second: shields_7
+  - first:
+      213: -7273648910224758980
+    second: shields_8
+  - first:
+      213: 1749196182253478806
+    second: shields_9
+  - first:
+      213: 1525717219932249154
+    second: shields_10
+  - first:
+      213: -8134395439918098631
+    second: shields_11
+  - first:
+      213: -8014187703047472061
+    second: shields_12
+  - first:
+      213: -5607424878193654381
+    second: shields_13
+  - first:
+      213: 6059628562797400548
+    second: shields_14
+  - first:
+      213: -7980941827988179182
+    second: shields_15
+  - first:
+      213: 8270053340133478419
+    second: shields_16
+  - first:
+      213: 6049166592059484142
+    second: shields_17
+  - first:
+      213: 312440749776701532
+    second: shields_18
+  - first:
+      213: 6387994740099967005
+    second: shields_19
+  - first:
+      213: -2464120010251931391
+    second: shields_20
+  - first:
+      213: -1167985347738484709
+    second: shields_21
+  - first:
+      213: 3452155368630646976
+    second: shields_22
+  - first:
+      213: 1627020967885849349
+    second: shields_23
+  - first:
+      213: 3512236989043623341
+    second: shields_24
+  - first:
+      213: -6470544687418136333
+    second: shields_25
+  - first:
+      213: -2158984677533403331
+    second: shields_26
+  - first:
+      213: -8792407802169713079
+    second: shields_27
+  - first:
+      213: -6548898120564075120
+    second: shields_28
+  - first:
+      213: 5255240327990140815
+    second: shields_29
+  - first:
+      213: 4311279934801750384
+    second: shields_30
+  - first:
+      213: 6469769749903317922
+    second: shields_31
+  - first:
+      213: 4547919515638590903
+    second: shields_32
+  - first:
+      213: -5475756055809761555
+    second: shields_33
+  - first:
+      213: -4463013126953065814
+    second: shields_34
+  - first:
+      213: -3677305331591163335
+    second: shields_35
+  - first:
+      213: 7623526320202113511
+    second: shields_36
+  - first:
+      213: -5272402922238610417
+    second: shields_37
+  - first:
+      213: -3777099047130207441
+    second: shields_38
+  - first:
+      213: 3047853350116410054
+    second: shields_39
+  - first:
+      213: -5397797737915707547
+    second: shields_40
+  - first:
+      213: 20430489224550359
+    second: shields_41
+  - first:
+      213: 4657789288595985766
+    second: shields_42
+  - first:
+      213: 5353292367969254824
+    second: shields_43
+  - first:
+      213: -4373638721981778061
+    second: shields_44
+  - first:
+      213: 7363611372164842914
+    second: shields_45
+  - first:
+      213: 294776841678903495
+    second: shields_46
+  - first:
+      213: 3523153000411984897
+    second: shields_47
+  - first:
+      213: -3412315649482745265
+    second: shields_48
+  - first:
+      213: 4121266407458114742
+    second: shields_49
+  - first:
+      213: -4838152867244038894
+    second: shields_50
+  - first:
+      213: 1737694905101446796
+    second: shields_51
+  - first:
+      213: 4849802864011506932
+    second: shields_52
+  - first:
+      213: -8050859436906757058
+    second: shields_53
+  - first:
+      213: -7044702459109189670
+    second: shields_54
+  - first:
+      213: -5334929839202605030
+    second: shields_55
+  - first:
+      213: 6398614910867276345
+    second: shields_56
+  - first:
+      213: 4791665183535660435
+    second: shields_57
+  - first:
+      213: -4668080487232547813
+    second: shields_58
+  - first:
+      213: 3726320991590911619
+    second: shields_59
+  - first:
+      213: 992062868744265134
+    second: shields_60
+  - first:
+      213: -4096081520079162045
+    second: shields_61
+  - first:
+      213: -5013965230054356330
+    second: shields_62
+  - first:
+      213: 1833975414796569243
+    second: shields_63
+  - first:
+      213: -4809860022447682332
+    second: shields_64
+  - first:
+      213: -75784132344725865
+    second: shields_65
+  - first:
+      213: 604181635785482665
+    second: shields_66
+  - first:
+      213: -4600535001263382418
+    second: shields_67
+  - first:
+      213: 8065723221196625485
+    second: shields_68
+  - first:
+      213: 4524176111616350316
+    second: shields_69
+  - first:
+      213: -1216174434946706010
+    second: shields_70
+  - first:
+      213: 8375234121312403691
+    second: shields_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shields_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f5ceb673e6d8400800000000000000
+      internalID: 328039532180823927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 220
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4673d19f7a1f260b0800000000000000
+      internalID: -5736757271575316636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 220
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca171825cf918b6a0800000000000000
+      internalID: -6433363496192085588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 220
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf63b4620cca10b60800000000000000
+      internalID: 7710633978311161596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 220
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7749ec9b0ed8c00800000000000000
+      internalID: 904626188810745829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 220
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e17022b9a02b7eb0800000000000000
+      internalID: -4721143871157800474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 220
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae912ff178d9e5740800000000000000
+      internalID: 5142721028185790954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 220
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7818c41c107280b0800000000000000
+      internalID: -5727892510151796609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_8
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 219
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3765258adece0b90800000000000000
+      internalID: -7273648910224758980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_9
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 219
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69320bdf8a4664810800000000000000
+      internalID: 1749196182253478806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 220
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c12c95abf6c2510800000000000000
+      internalID: 1525717219932249154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 220
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937df1df172dc1f80800000000000000
+      internalID: -8134395439918098631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c3d8cbeb2e7c090800000000000000
+      internalID: -8014187703047472061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 178
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395449e58cc6e22b0800000000000000
+      internalID: -5607424878193654381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 178
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e199549210281450800000000000000
+      internalID: 6059628562797400548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 178
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21735b931bffd3190800000000000000
+      internalID: -7980941827988179182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 178
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310503c32b125c270800000000000000
+      internalID: 8270053340133478419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 178
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7add237f4f2f350800000000000000
+      internalID: 6049166592059484142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 178
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c580ccfd433065400800000000000000
+      internalID: 312440749776701532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 178
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18e8befe57b6a850800000000000000
+      internalID: 6387994740099967005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 177
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1017009f7efadcdd0800000000000000
+      internalID: -2464120010251931391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_21
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 177
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10cf25b38b7acfe0800000000000000
+      internalID: -1167985347738484709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_22
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 177
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8ffa8740588ef20800000000000000
+      internalID: 3452155368630646976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_23
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 177
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503c2f033f6549610800000000000000
+      internalID: 1627020967885849349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5cee2dee8fdb030800000000000000
+      internalID: 3512236989043623341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 140
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8a623a3e10436a0800000000000000
+      internalID: -6470544687418136333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_26
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 139
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d373c14efdeb902e0800000000000000
+      internalID: -2158984677533403331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_27
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 139
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e1d4720b71bf580800000000000000
+      internalID: -8792407802169713079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_28
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 137
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0951e8d5bd3ad15a0800000000000000
+      internalID: -6548898120564075120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 137
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fd82f1c3d5ee840800000000000000
+      internalID: 5255240327990140815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_30
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 137
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079a021324eb4db30800000000000000
+      internalID: 4311279934801750384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_31
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 137
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab1e892f4d39c950800000000000000
+      internalID: 6469769749903317922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_32
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 133
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd64bc14b47d1f30800000000000000
+      internalID: 4547919515638590903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_33
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 133
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deed3c801e43204b0800000000000000
+      internalID: -5475756055809761555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_34
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 133
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2ae0405313012c0800000000000000
+      internalID: -4463013126953065814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_35
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 133
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932dbdbb84697fcc0800000000000000
+      internalID: -3677305331591163335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1ec7b0cc43cc960800000000000000
+      internalID: 7623526320202113511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_37
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 86
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f047c330a79a4d6b0800000000000000
+      internalID: -5272402922238610417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_38
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 87
+        width: 14
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b6656bd6c059bc0800000000000000
+      internalID: -3777099047130207441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_39
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 87
+        width: 14
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c24c2549762c4a20800000000000000
+      internalID: 3047853350116410054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_40
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 86
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f802e5e8b2715b0800000000000000
+      internalID: -5397797737915707547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_41
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 86
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d711d4fb65984000800000000000000
+      internalID: 20430489224550359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_42
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 86
+        width: 13
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66512611eaac3a040800000000000000
+      internalID: 4657789288595985766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_43
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 86
+        width: 14
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8adfd93bb07ba4a40800000000000000
+      internalID: 5353292367969254824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_44
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 88
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377f16041c6bd43c0800000000000000
+      internalID: -4373638721981778061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_45
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 88
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a589e5678dc03660800000000000000
+      internalID: 7363611372164842914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_46
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 88
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c85848c9f1471400800000000000000
+      internalID: 294776841678903495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 88
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10478e6ccf0c4e030800000000000000
+      internalID: 3523153000411984897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a131bfef405a0d0800000000000000
+      internalID: -3412315649482745265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_49
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 45
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc8a4156fda13930800000000000000
+      internalID: 4121266407458114742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_50
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 46
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215a1e2d99d6bdcb0800000000000000
+      internalID: -4838152867244038894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_51
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 46
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ee39a3f488d1810800000000000000
+      internalID: 1737694905101446796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_52
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 43
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4f31c6206fd4340800000000000000
+      internalID: 4849802864011506932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_53
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 43
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3442965ff9954090800000000000000
+      internalID: -8050859436906757058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_54
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 43
+        width: 13
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7d97810703c3e90800000000000000
+      internalID: -7044702459109189670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_55
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 43
+        width: 13
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1862b0b39586f5b0800000000000000
+      internalID: -5334929839202605030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_56
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 45
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93203c03c527cc850800000000000000
+      internalID: 6398614910867276345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_57
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 45
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39dff3bd81a6f7240800000000000000
+      internalID: 4791665183535660435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_58
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 45
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1452978785a73fb0800000000000000
+      internalID: -4668080487232547813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_59
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 45
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e8bdee23d86b330800000000000000
+      internalID: 3726320991590911619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead5b564ce384cd00800000000000000
+      internalID: 992062868744265134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_61
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345b3a83f8bc727c0800000000000000
+      internalID: -4096081520079162045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_62
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a437a3031da6ab0800000000000000
+      internalID: -5013965230054356330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_63
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9acfb54ce6937910800000000000000
+      internalID: 1833975414796569243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_64
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec47a61bc1ff3db0800000000000000
+      internalID: -4809860022447682332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_65
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e3bffabb2c2fef0800000000000000
+      internalID: -75784132344725865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_66
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1
+        width: 14
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1eec42ffb726800800000000000000
+      internalID: 604181635785482665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_67
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1
+        width: 14
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60e1f08acd9720c0800000000000000
+      internalID: -4600535001263382418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_68
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 4
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d465b0029843fef60800000000000000
+      internalID: 8065723221196625485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_69
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 5
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c685332143a19ce30800000000000000
+      internalID: 4524176111616350316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_70
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 4
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a517148bc74f1fe0800000000000000
+      internalID: -1216174434946706010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shields_71
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 4
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be08e873f0fca3470800000000000000
+      internalID: 8375234121312403691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shields_0: 328039532180823927
+      shields_1: -5736757271575316636
+      shields_10: 1525717219932249154
+      shields_11: -8134395439918098631
+      shields_12: -8014187703047472061
+      shields_13: -5607424878193654381
+      shields_14: 6059628562797400548
+      shields_15: -7980941827988179182
+      shields_16: 8270053340133478419
+      shields_17: 6049166592059484142
+      shields_18: 312440749776701532
+      shields_19: 6387994740099967005
+      shields_2: -6433363496192085588
+      shields_20: -2464120010251931391
+      shields_21: -1167985347738484709
+      shields_22: 3452155368630646976
+      shields_23: 1627020967885849349
+      shields_24: 3512236989043623341
+      shields_25: -6470544687418136333
+      shields_26: -2158984677533403331
+      shields_27: -8792407802169713079
+      shields_28: -6548898120564075120
+      shields_29: 5255240327990140815
+      shields_3: 7710633978311161596
+      shields_30: 4311279934801750384
+      shields_31: 6469769749903317922
+      shields_32: 4547919515638590903
+      shields_33: -5475756055809761555
+      shields_34: -4463013126953065814
+      shields_35: -3677305331591163335
+      shields_36: 7623526320202113511
+      shields_37: -5272402922238610417
+      shields_38: -3777099047130207441
+      shields_39: 3047853350116410054
+      shields_4: 904626188810745829
+      shields_40: -5397797737915707547
+      shields_41: 20430489224550359
+      shields_42: 4657789288595985766
+      shields_43: 5353292367969254824
+      shields_44: -4373638721981778061
+      shields_45: 7363611372164842914
+      shields_46: 294776841678903495
+      shields_47: 3523153000411984897
+      shields_48: -3412315649482745265
+      shields_49: 4121266407458114742
+      shields_5: -4721143871157800474
+      shields_50: -4838152867244038894
+      shields_51: 1737694905101446796
+      shields_52: 4849802864011506932
+      shields_53: -8050859436906757058
+      shields_54: -7044702459109189670
+      shields_55: -5334929839202605030
+      shields_56: 6398614910867276345
+      shields_57: 4791665183535660435
+      shields_58: -4668080487232547813
+      shields_59: 3726320991590911619
+      shields_6: 5142721028185790954
+      shields_60: 992062868744265134
+      shields_61: -4096081520079162045
+      shields_62: -5013965230054356330
+      shields_63: 1833975414796569243
+      shields_64: -4809860022447682332
+      shields_65: -75784132344725865
+      shields_66: 604181635785482665
+      shields_67: -4600535001263382418
+      shields_68: 8065723221196625485
+      shields_69: 4524176111616350316
+      shields_7: -5727892510151796609
+      shields_70: -1216174434946706010
+      shields_71: 8375234121312403691
+      shields_8: -7273648910224758980
+      shields_9: 1749196182253478806
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
