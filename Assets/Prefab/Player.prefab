@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1460839059886945263}
   - component: {fileID: 7805576083787216101}
   - component: {fileID: 1593938689897597740}
+  - component: {fileID: 376629616264839239}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -317,6 +318,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HeartsUI
   hearts: []
+--- !u!95 &376629616264839239
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4199189586019822198}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ccf4d9d53c516d14e8e800ca222acc8c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4685353085476338941
 GameObject:
   m_ObjectHideFlags: 0

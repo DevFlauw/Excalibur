@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: cac5f810caf277848a408fb12e840adf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7116115912834731778
+    second: Floral Flourish - Blue_0
+  - first:
+      213: -8946023939511936922
+    second: Floral Flourish - Blue_1
+  - first:
+      213: 1558320887529589627
+    second: Floral Flourish - Blue_2
+  - first:
+      213: 2560280052381537833
+    second: Floral Flourish - Blue_3
+  - first:
+      213: -7463021143498025572
+    second: Floral Flourish - Blue_4
+  - first:
+      213: -3811740936975521360
+    second: Floral Flourish - Blue_5
+  - first:
+      213: 4023328424053939494
+    second: Floral Flourish - Blue_6
+  - first:
+      213: 1158571447623930113
+    second: Floral Flourish - Blue_7
+  - first:
+      213: -7627135275153533495
+    second: Floral Flourish - Blue_8
+  - first:
+      213: 3865263350957078744
+    second: Floral Flourish - Blue_9
+  - first:
+      213: 5131417599007083624
+    second: Floral Flourish - Blue_10
+  - first:
+      213: -4915031749861363872
+    second: Floral Flourish - Blue_11
+  - first:
+      213: -7883445293228771925
+    second: Floral Flourish - Blue_12
+  - first:
+      213: 1946690668133530616
+    second: Floral Flourish - Blue_13
+  - first:
+      213: -8963586853875114822
+    second: Floral Flourish - Blue_14
+  - first:
+      213: -2201347111523887866
+    second: Floral Flourish - Blue_15
+  - first:
+      213: -390087973822794689
+    second: Floral Flourish - Blue_16
+  - first:
+      213: -4734036440138484804
+    second: Floral Flourish - Blue_17
+  - first:
+      213: -6395741626334352214
+    second: Floral Flourish - Blue_18
+  - first:
+      213: 6800043281857851538
+    second: Floral Flourish - Blue_19
+  - first:
+      213: -986502658981283808
+    second: Floral Flourish - Blue_20
+  - first:
+      213: -1457157795055277990
+    second: Floral Flourish - Blue_21
+  - first:
+      213: -7019730104980738069
+    second: Floral Flourish - Blue_22
+  - first:
+      213: 2449817634807855305
+    second: Floral Flourish - Blue_23
+  - first:
+      213: -4916283639684635549
+    second: Floral Flourish - Blue_24
+  - first:
+      213: 1669032571142961915
+    second: Floral Flourish - Blue_25
+  - first:
+      213: -4216932106939372219
+    second: Floral Flourish - Blue_26
+  - first:
+      213: 5249461540443289254
+    second: Floral Flourish - Blue_27
+  - first:
+      213: 2179507162015462540
+    second: Floral Flourish - Blue_28
+  - first:
+      213: -3504638439604391448
+    second: Floral Flourish - Blue_29
+  - first:
+      213: -5305556982544190699
+    second: Floral Flourish - Blue_30
+  - first:
+      213: 8569774661626306813
+    second: Floral Flourish - Blue_31
+  - first:
+      213: 8922022186765859842
+    second: Floral Flourish - Blue_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef03bf2b74a7e3d90800000000000000
+      internalID: -7116115912834731778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 226
+        width: 16
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668104500a659d380800000000000000
+      internalID: -8946023939511936922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 230
+        width: 8
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bc543479440a510800000000000000
+      internalID: 1558320887529589627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 230
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92658b78421f78320800000000000000
+      internalID: 2560280052381537833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 230
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95129e8fc50e6890800000000000000
+      internalID: -7463021143498025572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 230
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b962c330d9f91bc0800000000000000
+      internalID: -3811740936975521360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 226
+        width: 16
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d977a92ebb5d730800000000000000
+      internalID: 4023328424053939494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 230
+        width: 8
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101d88ed792141010800000000000000
+      internalID: 1158571447623930113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 230
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c55f96a0e8f62690800000000000000
+      internalID: -7627135275153533495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_9
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 230
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8f125e98c24a530800000000000000
+      internalID: 3865263350957078744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 230
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c410f6e15763740800000000000000
+      internalID: 5131417599007083624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f2fb91aac4acbb0800000000000000
+      internalID: -4915031749861363872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 207
+        width: 60
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5bfda2640689290800000000000000
+      internalID: -7883445293228771925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 209
+        width: 60
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbbaa149d8040b10800000000000000
+      internalID: 1946690668133530616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_14
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 201
+        width: 52
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc996d5f31fa9380800000000000000
+      internalID: -8963586853875114822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 199
+        width: 52
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605594e177e3371e0800000000000000
+      internalID: -2201347111523887866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 183
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34f329fd01269af0800000000000000
+      internalID: -390087973822794689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_17
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 184
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb37acf80f25d4eb0800000000000000
+      internalID: -4734036440138484804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_18
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 167
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac692f70e2cd37a0800000000000000
+      internalID: -6395741626334352214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 151
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2903b60365b9e5e50800000000000000
+      internalID: 6800043281857851538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 168
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0283171fe0d3f42f0800000000000000
+      internalID: -986502658981283808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_21
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 152
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58e90ca4b227cbe0800000000000000
+      internalID: -1457157795055277990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_22
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 127
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befe18169a8e49e90800000000000000
+      internalID: -7019730104980738069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_23
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 146
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8b53fb8208ff120800000000000000
+      internalID: 2449817634807855305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3646889c31ad5cbb0800000000000000
+      internalID: -4916283639684635549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa7881d748992710800000000000000
+      internalID: 1669032571142961915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_26
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 95
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d60fb47927a75c0800000000000000
+      internalID: -4216932106939372219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_27
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 76
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6723c4575d9d840800000000000000
+      internalID: 5249461540443289254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_28
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 76
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84f951673a2f3e10800000000000000
+      internalID: 2179507162015462540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1733558e50d5fc0800000000000000
+      internalID: -3504638439604391448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_30
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 46
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5133cdfc800ee56b0800000000000000
+      internalID: -5305556982544190699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_31
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 22
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0216f66a4fde670800000000000000
+      internalID: 8569774661626306813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floral Flourish - Blue_32
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 22
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c355078e361db70800000000000000
+      internalID: 8922022186765859842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Floral Flourish - Blue_0: -7116115912834731778
+      Floral Flourish - Blue_1: -8946023939511936922
+      Floral Flourish - Blue_10: 5131417599007083624
+      Floral Flourish - Blue_11: -4915031749861363872
+      Floral Flourish - Blue_12: -7883445293228771925
+      Floral Flourish - Blue_13: 1946690668133530616
+      Floral Flourish - Blue_14: -8963586853875114822
+      Floral Flourish - Blue_15: -2201347111523887866
+      Floral Flourish - Blue_16: -390087973822794689
+      Floral Flourish - Blue_17: -4734036440138484804
+      Floral Flourish - Blue_18: -6395741626334352214
+      Floral Flourish - Blue_19: 6800043281857851538
+      Floral Flourish - Blue_2: 1558320887529589627
+      Floral Flourish - Blue_20: -986502658981283808
+      Floral Flourish - Blue_21: -1457157795055277990
+      Floral Flourish - Blue_22: -7019730104980738069
+      Floral Flourish - Blue_23: 2449817634807855305
+      Floral Flourish - Blue_24: -4916283639684635549
+      Floral Flourish - Blue_25: 1669032571142961915
+      Floral Flourish - Blue_26: -4216932106939372219
+      Floral Flourish - Blue_27: 5249461540443289254
+      Floral Flourish - Blue_28: 2179507162015462540
+      Floral Flourish - Blue_29: -3504638439604391448
+      Floral Flourish - Blue_3: 2560280052381537833
+      Floral Flourish - Blue_30: -5305556982544190699
+      Floral Flourish - Blue_31: 8569774661626306813
+      Floral Flourish - Blue_32: 8922022186765859842
+      Floral Flourish - Blue_4: -7463021143498025572
+      Floral Flourish - Blue_5: -3811740936975521360
+      Floral Flourish - Blue_6: 4023328424053939494
+      Floral Flourish - Blue_7: 1158571447623930113
+      Floral Flourish - Blue_8: -7627135275153533495
+      Floral Flourish - Blue_9: 3865263350957078744
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
