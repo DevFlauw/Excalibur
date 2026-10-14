@@ -1,4 +1,3 @@
-
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -13,13 +12,16 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private Vector2 sword_size = new Vector2(1f, 1.2f); // x = portée devant le joueur, y = largeur
     [SerializeField] private float sword_distance = 0.8f; // Distance entre le joueur et le centre de la zone
 
+    [Header("Animation de l'épée")]
+    [SerializeField] private Animator sword_animator; // Animator qui contient les 4 triggers de coup d'épée
+
     [Header("Bouclier")]
     [SerializeField] private float shield_speed_multiplier = 0.5f; // Vitesse divisée par 2
 
     [Header("Flacon")]
     [SerializeField] private float fairy_capture_radius = 1.2f;
 
-    public UnityEvent OnSwordSwing; // À brancher sur l'animation ou le son de l'épée
+    public UnityEvent OnSwordSwing; // À brancher sur le son de l'épée ou d'autres effets
 
     private PlayerController player_control;
     private PlayerHealth player_health;
@@ -50,10 +52,13 @@ public class PlayerCombat : MonoBehaviour
     {
         // Ignore si le bouton n'est pas pressé, si le cooldown est actif ou si le jeu est en pause
         if (!ctx.performed || sword_timer > 0 || Time.timeScale == 0f) return;
-        Debug.Log("Attack");
+							
 
         sword_timer = sword_cooldown;
         OnSwordSwing?.Invoke();
+
+        // Joue l'animation de l'épée selon la direction du joueur
+        PlaySwordAnimation();
 
         // Calcule la zone d'attaque devant le joueur
         Vector2 dir = player_control.FacingDir;
@@ -126,6 +131,22 @@ public class PlayerCombat : MonoBehaviour
     }
 #endregion
 
+    // Déclenche le trigger d'animation correspondant à la direction du joueur
+    private void PlaySwordAnimation()
+    {
+        if (sword_animator == null) return;
+
+        Vector2 face = player_control.FacingDir;
+        string trigger;
+
+        if (face.x > 0) trigger = "SwingRight";
+        else if (face.x < 0) trigger = "SwingLeft";
+        else if (face.y > 0) trigger = "SwingUp";
+        else trigger = "SwingDown";
+
+        sword_animator.SetTrigger(trigger);
+    }
+
     private void SetShield(bool value)
     {
         is_shielding = value;
@@ -153,4 +174,3 @@ public class PlayerCombat : MonoBehaviour
         Gizmos.DrawWireCube(transform.position + Vector3.down * sword_distance, new Vector3(sword_size.y, sword_size.x, 0f));
     }
 }
-
