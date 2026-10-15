@@ -52,7 +52,7 @@ public class PlayerCombat : MonoBehaviour
     {
         // Ignore si le bouton n'est pas pressé, si le cooldown est actif ou si le jeu est en pause
         if (!ctx.performed || sword_timer > 0 || Time.timeScale == 0f) return;
-							
+        Debug.Log("Attack");
 
         sword_timer = sword_cooldown;
         OnSwordSwing?.Invoke();
@@ -97,6 +97,7 @@ public class PlayerCombat : MonoBehaviour
         if (ctx.started || ctx.performed)
         {
             SetShield(true);
+            Debug.Log("is shielded");
         }
         else if (ctx.canceled)
         {

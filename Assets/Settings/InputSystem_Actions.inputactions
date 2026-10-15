@@ -171,17 +171,6 @@
                 },
                 {
                     "name": "",
-                    "id": "c7d79b14-07b0-408b-933d-45374e9098a8",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Shield",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "7e5259d3-903e-481c-bbc8-83c6bd351b6e",
                     "path": "<Keyboard>/k",
                     "interactions": "",
