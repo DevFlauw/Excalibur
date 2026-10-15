@@ -827,6 +827,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &964238462 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4199189586019822198, guid: e2880e59481887c4c9661446c641955e, type: 3}
+  m_PrefabInstance: {fileID: 1395100212943722971}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1451529502 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4742171364692482498, guid: e2880e59481887c4c9661446c641955e, type: 3}
@@ -843,6 +848,7 @@ GameObject:
   - component: {fileID: 1462443312}
   - component: {fileID: 1462443314}
   - component: {fileID: 1462443313}
+  - component: {fileID: 1462443315}
   m_Layer: 5
   m_Name: FairyBottle
   m_TagString: Untagged
@@ -908,6 +914,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1462443311}
   m_CullTransparentMesh: 1
+--- !u!114 &1462443315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462443311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1203069028976b3429db2e49768ddb43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BottleUI
+  bottle_image: {fileID: 0}
+  empty_sprite: {fileID: 0}
+  full_sprite: {fileID: 0}
+  fairy_icon: {fileID: 624261902}
 --- !u!1 &1532201887
 GameObject:
   m_ObjectHideFlags: 0
@@ -1502,6 +1524,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1395100212943722981}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1395100212943722981}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1395100212943722981}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Bottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerCombat, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerCombat, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460839059886945263, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4199189586019822198, guid: e2880e59481887c4c9661446c641955e, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1546,6 +1632,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7805576083787216101, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: OnBottleChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805576083787216101, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: OnBottleChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1462443315}
+    - target: {fileID: 7805576083787216101, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: OnBottleChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805576083787216101, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: OnBottleChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetBottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805576083787216101, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: OnBottleChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BottleUI, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805576083787216101, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      propertyPath: OnBottleChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8214330975439094581, guid: e2880e59481887c4c9661446c641955e, type: 3}
       propertyPath: sword_animator
       value: 
@@ -1556,13 +1666,38 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5995755883052442697, guid: e2880e59481887c4c9661446c641955e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 519420032}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4199189586019822198, guid: e2880e59481887c4c9661446c641955e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1395100212943722981}
   m_SourcePrefab: {fileID: 100100000, guid: e2880e59481887c4c9661446c641955e, type: 3}
 --- !u!4 &1395100212943722972 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5995755883052442697, guid: e2880e59481887c4c9661446c641955e, type: 3}
   m_PrefabInstance: {fileID: 1395100212943722971}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1395100212943722981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964238462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f71731a7e3645c47bf79d32df5da228, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
+  sword_damage: 1
+  sword_cooldown: 0.35
+  sword_size: {x: 1, y: 1.2}
+  sword_distance: 0.8
+  sword_animator: {fileID: 0}
+  shield_speed_multiplier: 0.5
+  fairy_capture_radius: 1.2
+  OnSwordSwing:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

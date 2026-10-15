@@ -52,7 +52,6 @@ public class PlayerCombat : MonoBehaviour
     {
         // Ignore si le bouton n'est pas pressé, si le cooldown est actif ou si le jeu est en pause
         if (!ctx.performed || sword_timer > 0 || Time.timeScale == 0f) return;
-        Debug.Log("Attack");
 
         sword_timer = sword_cooldown;
         OnSwordSwing?.Invoke();
@@ -97,7 +96,6 @@ public class PlayerCombat : MonoBehaviour
         if (ctx.started || ctx.performed)
         {
             SetShield(true);
-            Debug.Log("is shielded");
         }
         else if (ctx.canceled)
         {
@@ -108,16 +106,25 @@ public class PlayerCombat : MonoBehaviour
     // Input du flacon (U) : capture une fée proche
     public void Bottle(InputAction.CallbackContext ctx)
     {
+        Debug.Log("[Bottle] touche reçue, phase = " + ctx.phase);
+
         if (!ctx.performed || Time.timeScale == 0f) return;
 
         // Le flacon est déjà plein
-        if (player_health.HasFairy) return;
+        if (player_health.HasFairy)
+        {
+            Debug.Log("[Bottle] flacon déjà plein : rien à faire");
+            return;
+        }
 
         // Cherche une fée autour du joueur
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, fairy_capture_radius);
+        Debug.Log("[Bottle] " + hits.Length + " collider(s) dans un rayon de " + fairy_capture_radius);
 
         foreach (Collider2D hit in hits)
         {
+            Debug.Log("[Bottle] collider trouvé : " + hit.name);
+
             Fairy fairy = hit.GetComponent<Fairy>();
             if (fairy != null)
             {
