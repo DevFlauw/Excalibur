@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-// Vie du joueur (3 cœurs) et flacon de fée
+// Vie du joueur (3 cœurs)
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private int max_health = 3;
@@ -10,26 +10,52 @@ public class PlayerHealth : MonoBehaviour
     private int current_health;
     private bool has_fairy;
 
-    public UnityEvent<int> OnHealthChanged;   // Envoie le nombre de cœurs restants
-    public UnityEvent<bool> OnBottleChanged;  // Envoie true si le flacon contient une fée
+    // Dernier checkpoint atteint 
+    private static bool has_checkpoint;
+    private static Vector2 checkpoint_position;
+
+    public UnityEvent<int> OnHealthChanged;   // nombre de cœurs restants
+    public UnityEvent<bool> OnBottleChanged;  // le flacon contient une fée
 
     public int Health { get { return current_health; } }
     public bool HasFairy { get { return has_fairy; } }
+    public static bool HasCheckpoint { get { return has_checkpoint; } }
+    public static Vector2 CheckpointPosition { get { return checkpoint_position; } }
+
+    // Remet le checkpoint à zéro 
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    private static void ResetCheckpoint()
+    {
+        has_checkpoint = false;
+    }
+
+    // Appelée par un Checkpoint
+    public static void SetCheckpoint(Vector2 position)
+    {
+        has_checkpoint = true;
+        checkpoint_position = position;
+    }
 
     void Start()
     {
-        // Le joueur commence avec tous ses points de vie et un flacon vide
+        
         current_health = max_health;
         has_fairy = false;
 
-        // Met à jour l'interface au démarrage
+        
+        if (has_checkpoint)
+        {
+            transform.position = checkpoint_position;
+        }
+
+        
         OnHealthChanged?.Invoke(current_health);
         OnBottleChanged?.Invoke(has_fairy);
     }
 
     public void TakeDamage(int amount)
     {
-        // Ignore les dégâts si le joueur est déjà mort
+        
         if (current_health <= 0) return;
 
         current_health -= amount;
@@ -38,14 +64,14 @@ public class PlayerHealth : MonoBehaviour
         {
             if (has_fairy)
             {
-                // La fée du flacon est consommée et rend tous les points de vie
+                
                 has_fairy = false;
                 current_health = max_health;
                 OnBottleChanged?.Invoke(has_fairy);
             }
             else
             {
-                // Plus de points de vie et pas de fée : le joueur meurt
+                
                 current_health = 0;
                 OnHealthChanged?.Invoke(current_health);
                 Die();
@@ -56,7 +82,7 @@ public class PlayerHealth : MonoBehaviour
         OnHealthChanged?.Invoke(current_health);
     }
 
-    // Met une fée dans le flacon. Retourne false si le flacon est déjà plein
+    // fée dans le flacon. Retourne false si le flacon est déjà plein
     public bool CaptureFairy()
     {
         if (has_fairy) return false;
@@ -68,7 +94,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Die()
     {
-        // Recommence la scène
+        // Recommence la scène 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
