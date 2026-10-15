@@ -11,10 +11,10 @@ TagManager:
   - Player
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - PlayerBody
+  - PlayerFeet
+  - Buildings
+  - Ennemy
   - 
   - 
   - 
