@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int max_health = 2;
     [SerializeField] private float fire_interval = 2f;
     [SerializeField] private float detection_range = 8f; // Distance à partir de laquelle l'ennemi tire
-    [SerializeField] private Fireball fireball_prefab;
+    [SerializeField] private GameObject fireball_prefab;
     [SerializeField] private GameObject death_fx;
 
     private int current_health;
@@ -47,8 +47,8 @@ public class Enemy : MonoBehaviour
     {
         Vector2 dir = ((Vector2)target.position - (Vector2)transform.position).normalized;
 
-        Fireball fireball = Instantiate(fireball_prefab, transform.position, Quaternion.identity);
-        fireball.Init(dir);
+        GameObject fireball = Instantiate(fireball_prefab, transform.position, Quaternion.identity);
+        fireball.GetComponent<Fireball>().Init(dir);
     }
 
     // Appelée par l'épée du joueur
