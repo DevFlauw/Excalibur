@@ -56,7 +56,6 @@ public class Fireball : MonoBehaviour
             Impact();
         }
     }
-
     private void Impact()
     {
         // Si le prefab fx d'impact existe, spawn une instance

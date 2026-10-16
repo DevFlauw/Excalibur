@@ -21,6 +21,7 @@ public class PlayerHealth : MonoBehaviour
     public bool HasFairy { get { return has_fairy; } }
     public static bool HasCheckpoint { get { return has_checkpoint; } }
     public static Vector2 CheckpointPosition { get { return checkpoint_position; } }
+    private HeartsUI hudCanvas;
 
     // Remet le checkpoint à zéro 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
@@ -38,7 +39,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
-        
+        hudCanvas = GameObject.FindGameObjectWithTag("HUD").GetComponent<HeartsUI>();
         current_health = max_health;
         has_fairy = false;
 
@@ -79,6 +80,7 @@ public class PlayerHealth : MonoBehaviour
             }
         }
 
+        hudCanvas.SetHealth(current_health);
         OnHealthChanged?.Invoke(current_health);
     }
 

@@ -1,15 +1,26 @@
 
+using System.Collections.Generic;
 using UnityEngine;
 
 // Affiche les cœurs de vie du joueur : un GameObject par cœur
 public class HeartsUI : MonoBehaviour
 {
-    [SerializeField] private GameObject[] hearts; // Glisse ici les 3 cœurs, dans l'ordre
+    public Transform hearthContainer;
+
+    [SerializeField] private List<GameObject> hearts = new List<GameObject>(); // Glisse ici les 3 cœurs, dans l'ordre
+
+    private void Awake()
+    {
+        for (int i = 0; i < hearthContainer.childCount; i++)
+        {
+            hearts.Add(hearthContainer.GetChild(i).gameObject);
+        }
+    }
 
     // À brancher sur PlayerHealth.OnHealthChanged
     public void SetHealth(int value)
     {
-        for (int i = 0; i < hearts.Length; i++)
+        for (int i = 0; i < hearts.Count; i++)
         {
             // Un cœur est affiché tant que son index est inférieur à la vie restante
             hearts[i].SetActive(i < value);

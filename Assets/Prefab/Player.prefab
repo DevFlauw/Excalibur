@@ -93,12 +93,11 @@ GameObject:
   - component: {fileID: 1674689019270722323}
   - component: {fileID: 1460839059886945263}
   - component: {fileID: 7805576083787216101}
-  - component: {fileID: 1593938689897597740}
   - component: {fileID: 376629616264839239}
   - component: {fileID: 4370702531503540352}
   m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -387,19 +386,6 @@ MonoBehaviour:
   OnBottleChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1593938689897597740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4199189586019822198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c507230d08d94743965be3220637b49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HeartsUI
-  hearts: []
 --- !u!95 &376629616264839239
 Animator:
   serializedVersion: 7
