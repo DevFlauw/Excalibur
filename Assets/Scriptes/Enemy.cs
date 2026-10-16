@@ -13,12 +13,14 @@ public class Enemy : MonoBehaviour
     private int current_health;
     private float fire_timer;
     private Transform target;
+    Healthbar healthbar;
 
     void Start()
     {
         current_health = max_health;
         fire_timer = fire_interval;
-
+        healthbar = GetComponent<Healthbar>();
+        healthbar.UpdateLifeBar(current_health, max_health);
         // le joueur dans la scène
         PlayerHealth player = FindAnyObjectByType<PlayerHealth>();
         if (player != null)
@@ -62,6 +64,7 @@ public class Enemy : MonoBehaviour
     {
         current_health -= amount;
 
+        healthbar.UpdateLifeBar(current_health,max_health);
         if (current_health <= 0)
         {
             Die();
