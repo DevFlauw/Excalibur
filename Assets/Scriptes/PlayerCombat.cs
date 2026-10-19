@@ -16,7 +16,9 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private Animator sword_animator; // Animator qui contient les 4 triggers de coup d'épée
 
     [Header("Bouclier")]
-    [SerializeField] private float shield_speed_multiplier = 0.5f; // Vitesse divisée par 2
+    [SerializeField] private float shield_speed_multiplier = 0f; // 0 = immobile pendant que le bouclier est levé (comme dans Minish Cap)
+    [SerializeField] private float block_angle = 60f; // Demi-angle devant le joueur où le bouclier bloque (60 = cône de 120 degrés)
+    [SerializeField] private GameObject shield_visual; // Objet Shield affiché pendant le blocage (optionnel)
 
     [Header("Flacon")]
     [SerializeField] private float fairy_capture_radius = 1.2f;
@@ -35,6 +37,12 @@ public class PlayerCombat : MonoBehaviour
     {
         player_control = GetComponent<PlayerController>();
         player_health = GetComponent<PlayerHealth>();
+
+        // Le bouclier visuel est caché tant que le joueur ne le lève pas
+        if (shield_visual != null)
+        {
+            shield_visual.SetActive(false);
+        }
     }
 
     void Update()
@@ -51,7 +59,7 @@ public class PlayerCombat : MonoBehaviour
     public void Sword(InputAction.CallbackContext ctx)
     {
         // Ignore si le bouton n'est pas pressé, si le cooldown est actif ou si le jeu est en pause
-        if (!ctx.performed || sword_timer > 0 || Time.timeScale == 0f) return;
+        if (!ctx.performed || sword_timer > 0 || Time.timeScale == 0f || is_shielding) return;
 
         sword_timer = sword_cooldown;
         OnSwordSwing?.Invoke();
@@ -103,11 +111,9 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    // Input du flacon (U) : capture une fée proche
+    // Input du flacon (U) : capture la fée la plus proche
     public void Bottle(InputAction.CallbackContext ctx)
     {
-        Debug.Log("[Bottle] touche reçue, phase = " + ctx.phase);
-
         if (!ctx.performed || Time.timeScale == 0f) return;
 
         // Le flacon est déjà plein
@@ -117,24 +123,35 @@ public class PlayerCombat : MonoBehaviour
             return;
         }
 
-        // Cherche une fée autour du joueur
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, fairy_capture_radius);
-        Debug.Log("[Bottle] " + hits.Length + " collider(s) dans un rayon de " + fairy_capture_radius);
+        // Cherche les fées par leur script, sans dépendre d'un collider
+        Fairy[] fairies = FindObjectsByType<Fairy>(FindObjectsSortMode.None);
+        Debug.Log("[Bottle] " + fairies.Length + " fée(s) avec le script Fairy dans la scène");
 
-        foreach (Collider2D hit in hits)
+        // Garde la plus proche, dans le rayon de capture
+        Fairy closest = null;
+        float closest_distance = fairy_capture_radius;
+
+        foreach (Fairy fairy in fairies)
         {
-            Debug.Log("[Bottle] collider trouvé : " + hit.name);
-
-            Fairy fairy = hit.GetComponent<Fairy>();
-            if (fairy != null)
+            float distance = Vector2.Distance(transform.position, fairy.transform.position);
+            Debug.Log("[Bottle] fée '" + fairy.name + "' à " + distance.ToString("F1") + " unités");
+            if (distance <= closest_distance)
             {
-                // Met la fée dans le flacon puis la retire de la scène
-                if (player_health.CaptureFairy())
-                {
-                    fairy.Capture();
-                }
-                break;
+                closest = fairy;
+                closest_distance = distance;
             }
+        }
+
+        if (closest == null)
+        {
+            Debug.Log("[Bottle] aucune fée à moins de " + fairy_capture_radius + " unités (" + fairies.Length + " fée(s) avec le script Fairy dans la scène)");
+            return;
+        }
+
+        // Met la fée dans le flacon puis la retire de la scène
+        if (player_health.CaptureFairy())
+        {
+            closest.Capture();
         }
     }
 #endregion
@@ -155,9 +172,25 @@ public class PlayerCombat : MonoBehaviour
         sword_animator.SetTrigger(trigger);
     }
 
+    // Retourne true si une attaque venant de cette position est bloquée par le bouclier.
+    // Le bouclier ne protège que devant le joueur, dans la direction où il regarde.
+    public bool BlocksFrom(Vector2 source_position)
+    {
+        if (!is_shielding) return false;
+
+        Vector2 to_source = source_position - (Vector2)transform.position;
+        return Vector2.Angle(player_control.FacingDir, to_source) <= block_angle;
+    }
+
     private void SetShield(bool value)
     {
         is_shielding = value;
+
+        // Affiche ou cache le bouclier
+        if (shield_visual != null)
+        {
+            shield_visual.SetActive(value);
+        }
 
         // Le joueur se déplace deux fois moins vite avec le bouclier levé
         player_control.SetSpeedMultiplier(value ? shield_speed_multiplier : 1f);
