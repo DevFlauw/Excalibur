@@ -82,8 +82,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1558563143
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8179219320991236185, guid: a735be1dd58026449855dee53ef3d526, type: 3}
@@ -111,7 +111,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 100
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -122,7 +122,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!70 &5127773539410617722
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -178,7 +178,7 @@ MonoBehaviour:
   fireball_prefab: {fileID: 306118088223474950, guid: 6f9b6ca310e33c447b5f7c631e7656fa, type: 3}
   fire_point: {fileID: 0}
   death_fx: {fileID: 0}
-  healthbar: {fileID: 0}
+  healthbar: {fileID: 2894103011562500352}
 --- !u!114 &2894103011562500352
 MonoBehaviour:
   m_ObjectHideFlags: 0
