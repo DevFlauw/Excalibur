@@ -35,6 +35,7 @@ public class HeartsUI : MonoBehaviour
 {
     [SerializeField] private GameObject[] hearts; // Glisse ici les 3 cœurs, dans l'ordre
 
+    [SerializeField] private GameObject fairy;
     // À brancher sur PlayerHealth.OnHealthChanged
     public void SetHealth(int value)
     {
@@ -44,6 +45,9 @@ public class HeartsUI : MonoBehaviour
             hearts[i].SetActive(i < value);
         }
     }
+
+    public void HasFairy(bool value) 
+    {
+        fairy.SetActive(value);
+    }
 }
-
-

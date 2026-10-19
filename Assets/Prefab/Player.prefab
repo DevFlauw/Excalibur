@@ -434,6 +434,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  Hearts: {fileID: 0}
 --- !u!95 &376629616264839239
 Animator:
   serializedVersion: 7
@@ -779,7 +780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8740006075191936602}
   - component: {fileID: 553992126706658275}
-  - component: {fileID: 2639345539656749981}
+  - component: {fileID: 4728908814358721491}
   m_Layer: 6
   m_Name: Bouclier
   m_TagString: Untagged
@@ -861,7 +862,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!95 &2639345539656749981
+--- !u!95 &4728908814358721491
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0

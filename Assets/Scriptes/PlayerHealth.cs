@@ -126,6 +126,8 @@ public class PlayerHealth : MonoBehaviour
     public static bool HasCheckpoint { get { return has_checkpoint; } }
     public static Vector2 CheckpointPosition { get { return checkpoint_position; } }
 
+    public HeartsUI Hearts;
+
     // Remet le checkpoint à zéro 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
     private static void ResetCheckpoint()
@@ -145,8 +147,8 @@ public class PlayerHealth : MonoBehaviour
         
         current_health = max_health;
         has_fairy = false;
+        Hearts.HasFairy(has_fairy);
 
-        
         if (has_checkpoint)
         {
             transform.position = checkpoint_position;
@@ -172,6 +174,7 @@ public class PlayerHealth : MonoBehaviour
                 has_fairy = false;
                 current_health = max_health;
                 OnBottleChanged?.Invoke(has_fairy);
+                Hearts.HasFairy(has_fairy);
             }
             else
             {
@@ -182,7 +185,7 @@ public class PlayerHealth : MonoBehaviour
                 return;
             }
         }
-
+        Hearts.SetHealth(current_health);
         OnHealthChanged?.Invoke(current_health);
     }
 
@@ -190,8 +193,8 @@ public class PlayerHealth : MonoBehaviour
     public bool CaptureFairy()
     {
         if (has_fairy) return false;
-
         has_fairy = true;
+        Hearts.HasFairy(has_fairy);
         OnBottleChanged?.Invoke(has_fairy);
         return true;
     }

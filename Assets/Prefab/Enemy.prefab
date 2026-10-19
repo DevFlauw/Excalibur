@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8571100127995263008}
   - component: {fileID: 5127773539410617722}
   - component: {fileID: 5942362172707063807}
+  - component: {fileID: 2894103011562500352}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -178,6 +179,19 @@ MonoBehaviour:
   fire_point: {fileID: 0}
   death_fx: {fileID: 0}
   healthbar: {fileID: 0}
+--- !u!114 &2894103011562500352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906030299747533701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26d4faf9d9e50e40be811f385347efa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Healthbar
+  slider: {fileID: 0}
 --- !u!1 &8455540830357711409
 GameObject:
   m_ObjectHideFlags: 0
