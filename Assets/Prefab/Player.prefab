@@ -315,11 +315,35 @@ MonoBehaviour:
     m_ActionId: 6c864507-f522-43d2-afea-b1fa98e18084
     m_ActionName: 'Player/Sword[/Keyboard/j]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4370702531503540352}
+        m_TargetAssemblyTypeName: PlayerCombat, Assembly-CSharp
+        m_MethodName: Shield
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 671e47af-8c44-4a36-95af-6a704b98d59f
     m_ActionName: 'Player/Shield[/Keyboard/k]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4370702531503540352}
+        m_TargetAssemblyTypeName: PlayerCombat, Assembly-CSharp
+        m_MethodName: Bottle
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 0b581ff8-d480-435a-ae0e-6715b6b07c51
     m_ActionName: 'Player/Bottle[/Keyboard/u]'
   - m_PersistentCalls:
@@ -382,10 +406,34 @@ MonoBehaviour:
   max_health: 3
   OnHealthChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnBottleChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: BottleUI, Assembly-CSharp
+        m_MethodName: SetBottle
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!95 &376629616264839239
 Animator:
   serializedVersion: 7
@@ -426,7 +474,9 @@ MonoBehaviour:
   sword_distance: 0.8
   sword_animator: {fileID: 4742171364692482498}
   shield_speed_multiplier: 0.5
-  fairy_capture_radius: 1.2
+  block_angle: 60
+  shield_visual: {fileID: 5974721061818848772}
+  fairy_capture_radius: 5
   OnSwordSwing:
     m_PersistentCalls:
       m_Calls: []
@@ -729,6 +779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8740006075191936602}
   - component: {fileID: 553992126706658275}
+  - component: {fileID: 2639345539656749981}
   m_Layer: 6
   m_Name: Bouclier
   m_TagString: Untagged
@@ -810,6 +861,28 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!95 &2639345539656749981
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5974721061818848772}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3715b9b4f48c50649a08b580d93a8540, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6238864921517258202
 GameObject:
   m_ObjectHideFlags: 0

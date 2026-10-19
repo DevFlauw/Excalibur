@@ -114,7 +114,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -175,7 +175,9 @@ MonoBehaviour:
   fire_interval: 2
   detection_range: 8
   fireball_prefab: {fileID: 306118088223474950, guid: 6f9b6ca310e33c447b5f7c631e7656fa, type: 3}
+  fire_point: {fileID: 0}
   death_fx: {fileID: 0}
+  healthbar: {fileID: 0}
 --- !u!1 &8455540830357711409
 GameObject:
   m_ObjectHideFlags: 0

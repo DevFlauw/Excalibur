@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2543245022925832569}
   - component: {fileID: 5194989225671623416}
   - component: {fileID: 5210104777385037641}
+  - component: {fileID: 4282767780013497288}
   m_Layer: 0
   m_Name: Fairy 2_0
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5716736406235979713}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -114,3 +115,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4282767780013497288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5716736406235979713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e97c8bfe4e64af4f9ad9939af6daf3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Fairy
+  capture_fx: {fileID: 0}
